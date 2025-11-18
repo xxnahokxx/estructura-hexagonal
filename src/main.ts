@@ -1,4 +1,5 @@
-import { buildServer } from "./infrastructure/http/server";
+import { buildServer } from "./server";
+
 async function main() {
     const server = await buildServer();
     try {
